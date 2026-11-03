@@ -1,0 +1,33 @@
+.navbar a{
+    font-weight: 700;
+    font-size: large;
+    text-decoration: solid #3f5778;
+}
+.btn{
+    background-color:#3f5778 ;
+}
+.btn-primary:hover{
+    background-color: #161e2a;
+}
+    :root {
+      --royal-blue:#3f5778 ;
+      --royal-blue-hover:#2d3d53 ;
+    }
+    .btn-royal {
+      background-color: var(--royal-blue) !important;
+      color: white !important;
+      border: none !important;
+    }
+    .btn-royal:hover {
+      background-color: var(--royal-blue-hover) !important;
+    }
+    /* Slider image responsive size */
+    .slider-img {
+      object-fit: cover;
+      height: 500px;
+    }
+    @media (max-width: 768px) {
+      .slider-img {
+        height: 250px;
+      }
+    }
